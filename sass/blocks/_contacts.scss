@@ -1,0 +1,35 @@
+.contacts {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 55px;
+  background-image: url("./../img/contacts/footer-bg.svg");
+  background-size: cover;
+  color: #fff;
+  &:before {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    display: block;
+    width: 478px;
+    height: 547px;
+    margin-left: 79px;
+    background-image: url("./../img/contacts/girl.png");
+    background-size: initial;
+  }
+}
+
+.contact__info {
+  max-width: 360px;
+}
+
+.contact__title {
+  margin-bottom: 15px;
+}
+
+.contact__text {
+  margin-bottom: 30px;
+  max-width: 342px;
+  line-height: 27px;
+  letter-spacing: 1.15px;
+}

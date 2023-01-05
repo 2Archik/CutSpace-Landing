@@ -1,0 +1,45 @@
+.cta {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.cta-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #58bebf;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.cta__img img {
+  width: 558px;
+  margin: 40px 0 30px;
+  padding: 25px 25px 25px 0;
+  background-color: white;
+  border-radius: 0 20px 20px 0;
+}
+
+.cta__text {
+  background: url("./../img/cta/oval-top-right.svg") right top no-repeat;
+  padding-left: 95px;
+  justify-content: center;
+  flex-direction: column;
+  width: 555px;
+  box-sizing: border-box;
+  display: flex;
+
+  p {
+    width: 320px;
+  }
+}
+
+.cta__title {
+  margin-bottom: 15px;
+}
+
+.cta__buttons-row {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 20px;
+}

@@ -1,0 +1,36 @@
+.objects {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.objects__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.objects__img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.objects__text {
+  max-width: 543px;
+  margin-left: 200px;
+  margin-right: 164px;
+  p + p {
+    margin-top: 20px;
+  }
+  p {
+    letter-spacing: 1.15px;
+  }
+}
+
+.objects__title {
+  margin-bottom: 20px;
+}
+
+.objects__button {
+  margin-top: 40px;
+}
